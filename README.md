@@ -1,5 +1,7 @@
 # virat_navigation
 
+# warning...This package is utter garbage at the moment
+
 package for SLAM and navigation of Clueless Virat
 
 Create a map
