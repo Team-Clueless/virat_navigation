@@ -8,7 +8,7 @@ Create a map
 Launch world
 
 ```bash
-roslaunch virat_navigation virat_nav_world.launch
+roslaunch virat_navigation virat_bounded_world.launch
 ```
 
 start node
