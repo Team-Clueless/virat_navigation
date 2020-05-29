@@ -1,6 +1,6 @@
 <launch>
   <!-- Arguments -->
-  <arg name="map_file" default="/home/ashwin/test_map.yaml"/>
+  <arg name="map_file" default="$(find virat_navigation)/maps/test_map.yaml"/>
   <arg name="open_rviz" default="true"/>
   <arg name="move_forward_only" default="false"/>
   <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find virat_gazebo)/models/virat/virat_model.xacro'"/>
