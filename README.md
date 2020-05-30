@@ -1,17 +1,17 @@
 # virat_navigation
 
-package for SLAM and navigation of Clueless Virat
+Package for SLAM and navigation of Clueless Virat
 
-Create a map
-------------
+Usage
+-----
 
-Launch world
+Launch a world
 
 ```bash
 roslaunch virat_navigation virat_bounded_world.launch
 ```
 
-start node
+Launch Node
 
 ```bash
 roslaunch virat_navigation virat_navigation.launch map_file:=path_to_map_file
