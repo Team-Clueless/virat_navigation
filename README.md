@@ -1,3 +1,5 @@
+![alt text](https://img.shields.io/badge/status-stable-brightgreen)
+
 # virat_navigation
 
 Package for SLAM and navigation of Clueless Virat
