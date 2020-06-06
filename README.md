@@ -8,7 +8,7 @@ Usage
 Launch a world
 
 ```bash
-roslaunch virat_navigation virat_bounded_world.launch
+roslaunch virat_gazebo virat_bounded_world.launch
 ```
 
 Launch Node
