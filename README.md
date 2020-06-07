@@ -1,38 +1,20 @@
+![alt text](https://img.shields.io/badge/status-stable-brightgreen)
+
 # virat_navigation
 
-# warning...This package is utter garbage at the moment
+Package for SLAM and navigation of Clueless Virat
 
-package for SLAM and navigation of Clueless Virat
+Usage
+-----
 
-Create a map
-------------
-
-Launch world
+Launch a world
 
 ```bash
-roslaunch virat_navigation virat_nav_world.launch
+roslaunch virat_gazebo virat_bounded_world.launch
 ```
 
-Start gmapping
+Launch Node
 
 ```bash
-roslaunch virat_navigation gmapping_demo.launch
-```
-
-Launch rviz
-
-```bash
-roslaunch virat_navigation virat_gmapping_rviz.launch
-```
-
-Launch teleop
-
-```bash
-roslaunch virat_teleop virat_teleop_key.launch
-```
-
-Save map
-
-```bash
-rosrun map_server map_saver -f ~/map_for_navigation
+roslaunch virat_navigation virat_navigation.launch map_file:=path_to_map_file
 ```
